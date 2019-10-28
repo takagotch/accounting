@@ -161,7 +161,14 @@ func TestFormatMoneyDecimal(t *testing.T) {
 
 ```
 
-```
+```go
+// formatnumber_test.go
+func TestFormatNumber(t *testing.T) {
+  
+  d1 := decimal.New(12345, -6)
+  
+  
+}
 ```
 
 ```
